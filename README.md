@@ -13,6 +13,9 @@ If I have time left, I will create request objects for those too.
 7. Actually I changed the GETs to POSTs, which is very much not RESTful, but it's more secure.
 I left the GETs commented out, so you can see the original RESTful code, only because this is an interview,
 otherwise I don't keep dead code in my projects.
+8. I decided in the end to add a jar version so you can run it without gradle.
+   resources/temporaryforrunning/teyatinybank.jar probably unnecessary, but why not. 
+Some people might use maven only, or I don't know, I just wanted to make sure it's easy to run.
 
 **To run the application:**
 
