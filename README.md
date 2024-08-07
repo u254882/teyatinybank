@@ -28,6 +28,8 @@ Or
 java -jar build/libs/teyatinybank.jar
 ```
 Or open in intellij and run the main class, TeyatinybankApplication
+
+
 **Create a user**:
 ```
 curl -X POST -H "Content-Type: application/json" -d '{
