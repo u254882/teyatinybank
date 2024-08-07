@@ -90,7 +90,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
 }' http://localhost:8080/customers
 ```
 **Transfer**:
-
+```
 curl -X POST -H "Content-Type: application/json" -d '{
 "fromAccountId": 1,
 "toAccountId": 2,
