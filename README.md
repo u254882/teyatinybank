@@ -41,6 +41,8 @@ you'll get a customerId and accountId, in a json which you will need for the nex
 
 if you try again, it will fail, haven't implemented the 409, it's a general error for the purposes of 
 the interview
+
+
 **Deactivate**:
 ```
 curl -X PUT -H "Content-Type: application/json" -d "customerid eg. 1" http://localhost:8080/customers/deactivate
@@ -81,9 +83,9 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "lastName": "Milagyi",
     "address": "2 PrivateName Street"
 }' http://localhost:8080/customers
-
-**Transfer**:
 ```
+**Transfer**:
+
 curl -X POST -H "Content-Type: application/json" -d '{
 "fromAccountId": 1,
 "toAccountId": 2,
